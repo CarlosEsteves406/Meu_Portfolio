@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Kanit:wght@200&family=Tinos&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: 'Cinzel', serif;
+}
+
+:root {
+    --cor-hf: #E5E5CB;
+    --cor-fundo: #354259;
+    --cor-texto: #D5CEA3;
+    --hover: #C2DED1;
+    --cor-detalhe: #0e172e;
+}
+
+.minha_foto_menor {
+    width: 25%;
+    border-radius: 6%;
+    border: 0.5rem solid var(--cor-detalhe);
+}
+
+.apresentacao {
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+.apresentacao_conteudo {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3.12rem;
+}
+
+.redes {
+    padding: 1.5% 15%;
+    width: 14%;
+    transition: 0.20s;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border: 0.25rem solid var(--cor-detalhe);
+    background-color: var(--hover);
+    color: var(--cor-detalhe);
+    text-decoration: none;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: 'Cinzel', serif;
+}
+
+.redes:hover{
+    transition: 0.20s;
+    transform: scale(1.1);
+}
+
+.link_rede {
+    color: var(--cor-detalhe);
+    text-decoration: none;
+}
+
+.logo_rede {
+    width: 60%;
+    height: 60%;
+    padding: 0 30% 0 0;
+}
+
+.texto_redes {
+    font-size: 2.58rem;
+    font-family: 'Cinzel', serif;
+    display: flex;
+    justify-content: center;
+    color: var(--cor-detalhe);
+}
+
+.apresentacao_redes {
+    gap: 1.75rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo_conteudo {
+    font-size: 5.75rem;
+    font-family: 'Cinzel', serif;
+    color: var(--cor-detalhe);
+}
+
+.texto_conteudo {
+    font-size: 2rem;
+    font-family: 'Cinzel', serif;
+}
+
+.texto_2_conteudo {
+    color: var(--cor-detalhe);
+}
+
+.abas {
+    padding: 1.5%;
+    background-color: var(--cor-hf);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.link_abas {
+    text-decoration: none;
+    color: var(--cor-fundo);
+    transition: 0.10s;
+    font-size: 2.67rem;
+    font-weight: 600;
+}
+
+.link_abas:hover {
+    transition: 0.10s;
+    transform: scale(1.2);
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    background-color: var(--cor-hf);
+    padding: 1% 0 1% 0;
+}
+
+.titulo_rodape {
+    color: var(--cor-fundo);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.outros_contatos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.6rem;
+    padding: 1% 0;
+}
+
+.outros_contatos_div {
+    display: flex;
+    align-items: center;
+    gap: 7%;
+}
+
+.titulo_outros_contatos {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--cor-fundo);
+}
+
+.logo_mensagens {
+    width: 30%;
+}
+
+.logo_zap {
+    width: 20%;
+}
+
+.texto_outros-contatos {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cor-fundo);
+}
+
+/* sobre mim */
+
+.sobre_mim {
+    padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+
+
+.conteudo_sobre_mim {
+    width: 50%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.titulo_sobre_mim {
+    font-size: 5rem;
+    color: var(--cor-detalhe);
+
+}
+
+.texto_sobre_mim {
+    font-size: 1.7rem;
+    padding: 4% 0 0 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/*meus projetos*/
+
+.meus_projetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 6%;
+}
+
+.titulo_meus_projetos {
+    font-size: 5rem;
+    color: var(--cor-detalhe);
+    margin: 0 0 3% 0;
+}
+
+.texto_aviso {
+    color: var(--cor-detalhe);
+    font-weight: 600;
+}
+
+/* .carrossel_imagens_sites {
+
+} */
+
+
+@media (max-width:1200px) {
+
+    /* cabeçalho */
+
+    .abas {
+        padding: 4%;
+    }
+
+    .link_abas {
+        font-size: 1.2rem;
+    }
+
+    .ink_abas:hover {
+        font-size: 1.5rem;
+        transition: 0.10s;
+    }
+
+    /* início */
+
+    .minha_foto_menor {
+        width: 60%;
+        margin: 10%;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .titulo_conteudo {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+
+    .texto_conteudo {
+        font-size: 1.4rem;
+    }
+
+    .apresentacao_conteudo {
+        width: auto;
+    }
+
+    /* redes sociais para contato */
+    .texto_redes {
+        font-size: 1.2rem;
+    }
+
+    .redes {
+        font-size: 1.4rem;
+        width: 16%;
+    }
+
+    .logo_midia {
+        width: 20%;
+    }
+     /* rodape do site */
+    .rodape {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .titulo_outros_contatos {
+        display: flex;
+        align-items: center;
+    }
+
+    .outros_contatos {
+        padding: 1%;
+        align-items: center;
+    }
+
+    .titulo_outros_contatos {
+        font-size: 1.3rem;
+    }
+
+    .texto_outros-contatos {
+        font-size: 0.7rem;
+    }
+
+    /*sobre mim*/
+
+.sobre_mim {
+    flex-direction: column-reverse;
+    padding: 5%;
+    align-items: center;    
+}
+
+.conteudo_sobre_mim {
+    width: auto;
+}
+
+.titulo_sobre_mim {
+    font-size: 3rem;
+}
+
+.texto_sobre_mim {
+    font-size: 1.3rem;
+}
+
+/* meus projetos */
+
+.titulo_meus_projetos {
+    font-size: 3rem;
+    margin: 6%;
+    padding-bottom: 2.7%;
+}
+
+.texto_aviso {
+    font-size: 0.9rem;
+    margin: 0 0 6% 0;
+}
+
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carrossel.css">
+</head>
+
+<body>
+    <header>
+        <nav class="abas">
+            <a class="link_abas" href="index.html">Início</a>
+            <a class="link_abas" href="sobre.html">Sobre Mim</a>
+        </nav>
+    </header>
+
+    <main class="meus_projetos">
+        <h2 class="titulo_meus_projetos">Meus Projetos</h2>
+
+        <div class="carrossel_imagens_sites">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <a target="_blank" href="https://tech-trends-lac.vercel.app/index.html"><img src="./img/tech trends.png" style="width:100%"></a>
+                    <div class="text">Site Tech Trends: site desenvolvido em grupo com a temática de site de notícias sobre tendências tecnológicas.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 4</div>
+                    <a target="_blank" href="https://aluraplus-six-gules.vercel.app/"><img src="./img/alura plus.png" style="width:100%"></a>
+                    <div class="text">Site AluraPlus: site sobre um serviço de streaming desenvolvido individualmente para prática dos recursos tecnológicos CSS e HTML.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 4</div>
+                    <a target="_blank" href="https://robotron-nu-eight.vercel.app/?"><img src="./img/robotron.png" style="width:100%"></a>
+                    <div class="text">Site Robotron: site desenvolvido individualmente para prática da linguagem de programação JavaScript utilizando o DOM.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 4</div>
+                    <a target="_blank" href="https://jogos-atuais.vercel.app/"><img src="./img/jogos da atualidade.png" style="width:100%"></a>
+                    <div class="text">Site Jogos da Atualidade: site desnvolvido em dupla para prática e teste de recurços tecnológicos CSS e HTML.</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+        <h2 class="texto_aviso">Para acessar aos sites, clique na imagem.</h2>
+    </main>
+
+    <footer class="rodape">
+
+        <div class="outros_contatos">
+            <div class="outros_contatos_div">
+                <h2 class="titulo_outros_contatos">WhatsApp</h2>
+                <img class="logo_outros_contatos logo_zap" src="./img/icons8-whatsapp-50.png" alt="logo whatsapp">
+            </div>
+            <p class="texto_outros-contatos">(16) 98814-5175</p>
+        </div>
+        <div class="outros_contatos">
+            <div class="outros_contatos_div">
+                <h2 class="titulo_outros_contatos">Email</h2>
+                <img class="logo_outros_contatos logo_mensagens" src="./img/icons8-nova-mensagem-50.png"
+                    alt="logo email">
+            </div>
+            <p class="texto_outros-contatos">estevescatanicarloseduardo@gmail.com</p>
+        </div>
+
+    </footer>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
