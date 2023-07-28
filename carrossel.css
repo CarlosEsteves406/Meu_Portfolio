@@ -42,7 +42,7 @@ img {vertical-align: middle;}
 /* Caption text */
 .text {
   position: relative;
-  top: 16.8em;
+  top: 14.8em;
   color:var(--cor-texto);
   font-family: 'Cinzel', serif;
   font-size: 1.7rem;
@@ -95,6 +95,7 @@ img {vertical-align: middle;}
 
   .text {
     font-size: 0.8rem;
+    margin: auto;
   }
 
 .dot {

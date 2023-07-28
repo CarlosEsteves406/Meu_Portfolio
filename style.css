@@ -44,7 +44,7 @@ body {
 }
 
 .redes {
-    padding: 1.5% 15%;
+    padding: 2% 21%;
     width: 14%;
     transition: 0.20s;
     display: flex;
@@ -315,7 +315,7 @@ body {
     }
 
     .texto_outros-contatos {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
     }
 
     /*sobre mim*/
@@ -348,7 +348,7 @@ body {
 
 .texto_aviso {
     font-size: 0.9rem;
-    margin: 0 0 6% 0;
+    margin: 0 0 24% 0;
 }
 
 }
