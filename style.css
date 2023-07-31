@@ -298,13 +298,12 @@ body {
         justify-content: center;
         text-align: center;
         flex-direction: column;
-        max-width: auto;
     }
 
     .titulo_outros_contatos {
         display: flex;
         align-items: center;
-        max-width: auto;
+       
     }
 
     .outros_contatos {
