@@ -45,7 +45,7 @@ body {
 
 .redes {
     padding: 2% 21%;
-    width: 14%;
+    width: 5%;
     transition: 0.20s;
     display: flex;
     justify-content: center;
@@ -72,13 +72,13 @@ body {
 }
 
 .logo_rede {
-    width: 60%;
-    height: 60%;
+    width: 90%;
+    height: 90%;
     padding: 0 30% 0 0;
 }
 
 .texto_redes {
-    font-size: 2.58rem;
+    font-size: 2.5rem;
     font-family: 'Cinzel', serif;
     display: flex;
     justify-content: center;
@@ -95,13 +95,13 @@ body {
 }
 
 .titulo_conteudo {
-    font-size: 5.75rem;
+    font-size: 4.75rem;
     font-family: 'Cinzel', serif;
     color: var(--cor-detalhe);
 }
 
 .texto_conteudo {
-    font-size: 2rem;
+    font-size: 1.95rem;
     font-family: 'Cinzel', serif;
 }
 
@@ -233,11 +233,6 @@ body {
     font-weight: 600;
 }
 
-/* .carrossel_imagens_sites {
-
-} */
-
-
 @media (max-width:1200px) {
 
     /* cabeçalho */
@@ -351,7 +346,7 @@ body {
 
 .texto_aviso {
     font-size: 0.9rem;
-    margin: 0 0 24% 0;
+    margin: 0 0 10% 0;
 }
 
 }
